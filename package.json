@@ -1,0 +1,23 @@
+{
+  "name": "webcrawler",
+  "version": "1.0.0",
+  "description": "A javascript utility to crawl the web",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlfmcooper/webcrawler.git"
+  },
+  "author": "Ali Kone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tlfmcooper/webcrawler/issues"
+  },
+  "homepage": "https://github.com/tlfmcooper/webcrawler#readme",
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}
