@@ -13,9 +13,11 @@ async function main() {
 
     const baseURL = process.argv[2];
     console.log("Reading file " + process.argv[2]);
-    const text  = await crawlPage(baseURL);
+    const pages  = await crawlPage(baseURL, baseURL, {});
 
-    console.log(`${text}`);
+    for (const page of Object.entries(pages)) {
+        console.log(page);
+    }
 }
 
 main();
